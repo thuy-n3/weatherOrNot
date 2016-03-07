@@ -1,0 +1,53 @@
+body {
+	background: #333;
+}
+
+p {
+    margin: 1px auto;
+}
+
+.day,.hour{
+	display: inline-block;
+	border: 1px solid olive;
+	padding: 10px;
+}
+
+.hourTemp {
+	font-size: 24px;
+	color: pink;
+}
+
+.max {
+	color: crimson;
+	font-size: 32px;
+}
+
+
+.min {
+	color: teal;
+	font-size: 28px;
+}
+
+.temp {
+	color: pink;
+	font-size: 72px;
+}
+
+#buttons {
+	width: 450px;
+	margin: auto;
+}
+
+#buttons button {
+	background: pink;
+	width: 127px;
+	color: #333;
+	margin: 100px 10px 0 10px;
+	font-size: 25px;
+}
+
+#container {
+	text-align: center;
+	padding: 20%;
+}
+
